@@ -1,0 +1,32 @@
+.container > div {
+  display: flex;
+  justify-content: uppercase;
+  align-items: uppercase;
+  font-size: 2em;
+  color: black;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  background-color: lightgray;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}
+.container > div:nth-child(1n) {
+  background-color: lightblue;
+}
+
+.container > div:nth-child(3n) {
+  background-color: blue;
+}
+
+.container > div:nth-child(2n) {
+  background-color: red;
+}
+
+.container > div:nth-child(4n) {
+  background-color: violet;
+}
